@@ -1,11 +1,5 @@
 import csv
 
-#Python 2.x style (print statement, no with)
-#csv parsing without context manager
-#Manual string splitting
-#No typing or error handling
-
-
 def read_csv(file_name):
     f = open(file_name, 'rb')
     reader = csv.reader(f)
